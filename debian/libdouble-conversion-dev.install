@@ -1,0 +1,5 @@
+#!/usr/bin/dh-exec
+
+libdouble-conversion.so    /usr/lib/${DEB_HOST_MULTIARCH}/
+libdouble-conversion.a     /usr/lib/${DEB_HOST_MULTIARCH}/
+double-conversion/*.h      /usr/include/double-conversion/
